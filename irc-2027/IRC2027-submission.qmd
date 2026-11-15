@@ -1,0 +1,174 @@
+# Meritocracy and citizenship education in ICCS 2027: Insights from previous data using Response Item Networks. 
+
+## Abstract
+
+This proposal introduces a research agenda for integrating meritocracy into civic and citizenship education research ahead of the release of the International Civic and Citizenship Education Study 2027 database. The agenda is motivated by two new ICCS 2027 questionnaire items on effort and family origin. These items create a timely opportunity to study how young people understand fairness, social mobility, and structural inequality, and how those beliefs connect to civic norms taught in schools.
+
+Using data from the EDUMER 2023 student survey fielded in Chile (N=902), a study designed to align with core civic and citizenship constructs used in ICCS, we provide an empirical baseline that can guide future analyses that incorporate meritocracy items. The analysis has three aims. First, we describe the distribution of student responses to two meritocracy related items that capture perceived roles of personal effort and family background. Second, we examine variation in these beliefs by key social structural characteristics, focusing on gender and parental education. Third, we model how meritocracy items are structurally embedded in a broader attitudinal network of citizenship education indicators already measured in EDUMER, including attitudes toward equality, social responsibility, and democratic coexistence in school contexts.
+
+The analytical strategy combines descriptive profiles, group mean comparisons, and Response Item Networks (ResIN) (Carpentras et al., 2024) as the core inferential framework. This design allows us to identify how meritocracy beliefs connect to citizenship attitudes beyond linear assumptions and whether those connections vary by social position. We also examine whether effort and family origin occupy different structural roles in the attitude system, which is central for theorizing meritocracy as a multidimensional construct in adolescence.
+
+Expected findings indicate that effort centered beliefs will be widely endorsed, while recognition of family origin as a source of advantage will be less uniformly distributed and more strongly stratified by parental education. We further expect that stronger structural awareness of family origin will be positively associated with equality oriented civic attitudes, whereas exclusive emphasis on effort may show weaker or mixed associations depending on the outcome considered.
+
+The contribution is threefold: conceptual, methodological, and policy relevant. Conceptually, it positions meritocracy beliefs as part of civic learning rather than as a separate opinion domain. Methodologically, it offers replicable measurement and modeling decisions that can be transferred to International Civic and Citizenship Education Study 2027 once available. For policy and practice, it identifies actionable lines for curriculum, teacher preparation, and school discussion about issues of fairness and equality of opportunity.
+
+## Keywords
+
+- Meritocracy
+- Civic and citizenship education
+- Social inequality beliefs
+- Adolescence
+- Survey analysis
+
+## Introduction
+
+Beliefs about meritocracy are central to how students interpret social inequality, success, and justice. In educational contexts, meritocratic beliefs can shape whether young people view life outcomes mainly as the result of individual effort, as the consequence of social origin, or as a combination of both. This distinction matters for civic and citizenship education because judgments about fairness and responsibility are part of democratic socialization. When students discuss equal opportunity, rights, solidarity, and participation, they draw on implicit assumptions about whether social systems are open and fair (Batruch et al., 2022; Wiederkehr et al., 2015; Resh and Sabbagh, 2014).
+
+Following recent work, we treat meritocracy and privilege as analytically distinct dimensions rather than opposite poles of one continuum. This avoids forcing a zero-sum interpretation and allows for "dual consciousness" profiles in which students can simultaneously endorse effort and recognize structural advantage (Castillo et al., 2023; Kwon and Pandian, 2024; Zhu, 2025; Mijs, 2026). This perspective is especially relevant for school-age populations because schools socialize meritocratic norms while also exposing students to unequal conditions linked to family resources and networks (Batruch et al., 2022; Darnon et al., 2018; Goudeau and Croizet, 2017; Resh and Sabbagh, 2014).
+
+The International Civic and Citizenship Education Study 2027 offers a strategic moment to advance this agenda because it includes two questionnaire items directly related to effort and family origin. These items can support comparative evidence on how adolescents reconcile individual responsibility with structural constraints. At the same time, there is a need for conceptual and empirical groundwork on how these beliefs vary across social groups and connect to broader civic orientations already measured in existing instruments.
+
+This proposal addresses the aforementioned gaps by using EDUMER survey data as an anticipatory analytical platform linked to ICCS constructs. The study has three objectives:
+
+1. To describe the distribution of student beliefs about effort and family origin in relation to life chances.
+2. To test whether these beliefs differ by gender and parental education.
+3. To estimate the structural position of meritocracy beliefs within an attitudinal network that includes key civic and citizenship outcomes measured in EDUMER.
+
+The educational significance is twofold. First, the study contributes to theory development by positioning meritocracy beliefs as a substantive dimension of civic learning during adolescence. Second, it opens possibilities for future studies using ICCS data that could incorporate meritocratic measures into their analyses.
+
+## Data Sources and Methods
+
+### Data Source and Analytic Sample
+
+The empirical analysis uses student level data from the EDUMER survey (2023, N=902), fielded in Chile. EDUMER includes items aligned with civic and citizenship domains that are traditional in previous ICCS questionnaires. The analytic sample includes students with valid responses on the two meritocracy indicators and selected background and civic outcome variables. Missingness patterns will be reported and handled through transparent rules (complete case and sensitivity checks).
+
+### Measures
+
+Primary predictors:
+
+1. Effort belief item: agreement with the idea that individual effort determines success.
+2. Family origin belief item: agreement with the idea that family background influences life opportunities.
+
+Sociostructural variables:
+
+1. Gender.
+2. Parental education level (harmonized into comparable categories).
+
+Civic and citizenship outcomes:
+
+1. Good citizenship attitudes.
+2. Political participation.
+3. Democratic coexistence and school climate related indicators.
+
+Covariates: Student and school background controls available in EDUMER and conceptually relevant to civic outcomes.
+
+### Analytical Strategy
+
+The analysis is organized in three stages, with ResIN as the main explanatory method.
+
+Stage 1: Descriptive distributions
+
+1. Weighted percentages and central tendency statistics for effort and family origin beliefs.
+2. Graphical profiles of endorsement levels, including response category distributions.
+3. A joint distribution matrix (effort by family origin) to identify belief profiles that are merit-centered, structure-centered, dual, or low-endorsement.
+
+Stage 2: Group differences
+
+1. Mean and distribution comparisons by gender and parental education.
+2. Effect size reporting to complement significance testing.
+3. Profile prevalence comparisons by gender and parental education to evaluate whether dual-consciousness patterns are socially stratified.
+
+Stage 3: Attitudinal network modeling with ResIN
+
+1. Construct a ResIN network at the item-response level combining meritocracy items and selected citizenship education items.
+2. Identify network communities, bridge nodes, and structural proximity between meritocracy responses and classical civic outcomes.
+3. Compare network structures by gender and parental education to detect asymmetries in how effort and family origin connect to civic attitudes.
+4. Estimate node-level influence and bridge centrality to identify which beliefs are most likely to connect meritocratic reasoning with civic orientation clusters.
+
+ResIN is used as the primary framework because it models attitude systems at the response-item level and can recover asymmetries and non-linear structures often obscured in conventional latent-variable summaries (Carpentras et al., 2024).
+
+Robustness checks include alternate codings of meritocracy items, sensitivity to missing data handling, and network stability diagnostics. We will compare ResIN outputs with conventional item-correlation BNA summaries. In line with recent measurement literature, we will explicitly discuss comparability risks when extending these analyses to new populations or waves (Davidov et al., 2014; Putnick and Bornstein, 2016; Leitgob et al., 2023).
+
+### Link to International Civic and Citizenship Education Study Data
+
+Although the analysis uses EDUMER, the design is explicitly built to inform future International Civic and Citizenship Education Study 2027 work. The two focal constructs effort and family origin are treated as conceptually transportable dimensions. By documenting expected distributions, group gradients, and outcome associations in advance, this study provides a practical starting point for replicable analyses once the International Civic and Citizenship Education Study 2027 data become available.
+
+## Results and Discussion
+
+### Preliminary Pattern Expectations
+
+Based on prior literature and contextual evidence, we expect a high endorsement of effort centered explanations and a more heterogeneous endorsement of family origin explanations. In practical terms, students may strongly value effort while differing in their recognition of structural privilege.
+
+Consistent with multidimensional evidence, we expect non-trivial coexistence: many students will likely endorse effort and family origin simultaneously, rather than choosing one explanation over the other (Castillo et al., 2023; Zhu, 2025). Under a ResIN perspective, this should appear as proximate or bridged response configurations rather than mutually exclusive attitude zones.
+
+For sociostructural gradients, we expect parental education to be a relevant axis of differentiation, with stronger recognition of family origin effects among students from more highly educated households. Gender differences are expected to be present but potentially smaller and outcome dependent.
+
+### Expected Associations With Civic Outcomes
+
+The core hypothesis is that meritocracy beliefs are not neutral with respect to civic learning.
+
+1. Students who recognize family origin effects are expected to show stronger support for equality oriented attitudes and social responsibility.
+2. Students who emphasize only effort may show mixed civic profiles, potentially combining high personal agency with weaker acknowledgment of structural inequality.
+3. Students who integrate both dimensions effort and structure may show the most balanced civic profile, combining responsibility with fairness concerns.
+
+In network terms, we expect family-origin recognition to function as a bridge between meritocracy beliefs and equality-oriented citizenship attitudes.
+
+These patterns are important for citizenship education because they suggest that classroom discussions about justice and opportunity should avoid false binaries. A pedagogical approach that integrates agency and structure may better support democratic reasoning than approaches that emphasize one dimension alone.
+
+### Scientific and Practical Relevance
+
+The expected contribution to the International Civic and Citizenship Education Study community is threefold.
+
+1. Conceptual relevance: the study argues for treating meritocracy beliefs as part of civic competence formation.
+2. Methodological relevance: the study introduces ResIN as a tractable way to map response-level connections between meritocracy and citizenship attitudes, including potential non-linearities and asymmetries often flattened in latent-variable summaries.
+3. Practical relevance: the findings can inform curriculum and teacher training by identifying where students may need support to critically connect personal effort, social context, and democratic equality.
+
+## Conclusions and Point of View
+
+This proposal prepares the ground for a focused International Civic and Citizenship Education Study 2027 research agenda on meritocracy and privilege. By using EDUMER as an anticipatory platform, the study provides evidence and tools for immediate uptake when the new wave is released.
+
+The main point of view is that civic and citizenship education should explicitly engage students in interpreting the relationship between individual effort and structural opportunity. Treating meritocracy as a civic learning issue rather than only a social attitudes topic helps connect distributive justice debates to school based democratic education.
+
+From a conference perspective, the paper contributes to IEA priorities by linking empirical analysis to future comparative use of International Civic and Citizenship Education Study data and by offering actionable implications for policy and practice. It is designed as a bridge between current evidence and upcoming data opportunities, with clear pathways for extension into cross national analyses, school level heterogeneity studies, and trend monitoring in future research.
+
+## Tables and Figures Planned
+
+1. Figure 1. Distribution of effort and family origin beliefs.
+2. Table 1. Group differences by gender and parental education.
+3. Figure 2. ResIN network of meritocracy and citizenship items.
+4. Table 2. Network metrics (bridge centrality, community links) by group.
+5. Figure 3. Group-comparative network maps by parental education.
+
+## References
+
+Batruch, A., Jetten, J., van de Werfhorst, H., Darnon, C., and Butera, F. (2022). Belief in school meritocracy and the legitimization of social and income inequality. Social Psychological and Personality Science. https://doi.org/10.1177/19485506221111017
+
+Carpentras, D., Luders, A., and Quayle, M. (2024). Response item network (ResIN): A network-based approach to explore attitude systems. Humanities and Social Sciences Communications, 11(1), 1-14. https://doi.org/10.1057/s41599-024-03037-x
+
+Castillo, J. C., Iturra, J., Maldonado, L., Atria, J., and Meneses, F. (2023). A multidimensional approach for measuring meritocratic beliefs: Advantages, limitations and alternatives to the ISSP social inequality survey. International Journal of Sociology, 53(6), 448-472. https://doi.org/10.1080/00207659.2023.2274712
+
+Darnon, C., Wiederkehr, V., Dompnier, B., and Martinot, D. (2018). Where there is a will, there is a way: Belief in school meritocracy and the social-class achievement gap. British Journal of Social Psychology, 57(1), 250-262. https://doi.org/10.1111/bjso.12214
+
+Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., and Billiet, J. (2014). Measurement equivalence in cross-national research. Annual Review of Sociology, 40, 55-75. https://doi.org/10.1146/annurev-soc-071913-043137
+
+Fan, S., John, O. P., and De Fruyt, F. (2026). Disillusionment with meritocracy during the transition to adulthood: Longitudinal change in belief systems and depression in China. Psychological Science. https://doi.org/10.1177/09567976261479675
+
+Goudeau, S., and Croizet, J.-C. (2017). Hidden advantages and disadvantages of social class: How classroom settings reproduce social inequality by staging unfair comparison. Psychological Science, 28(2), 162-170. https://doi.org/10.1177/0956797616676600
+
+Kwon, R., and Pandian, R. K. (2024). Multidimensionality in merit attitudes: The role of hard work, skills, and social connections in Europe. Social Science Research, 122, 103056. https://doi.org/10.1016/j.ssresearch.2024.103056
+
+Leitgob, H., Seddig, D., Asparouhov, T., Behr, D., Davidov, E., De Roover, K., Jak, S., Meitinger, K., Menold, N., Muthen, B., Rudnev, M., Schmidt, P., and van de Schoot, R. (2023). Measurement invariance in the social sciences: Historical development, methodological challenges, state of the art, and future perspectives. Social Science Research, 110, 102805. https://doi.org/10.1016/j.ssresearch.2022.102805
+
+Lundberg, I., Johnson, R., and Stewart, B. M. (2021). What is your estimand? Defining the target quantity connects statistical evidence to theory. American Sociological Review, 86(3), 532-565. https://doi.org/10.1177/00031224211004187
+
+Mijs, J. J. B. (2026). Visualizing belief in merit and privilege, 1930 to 2020: Rejoinder. Socius, 12. https://doi.org/10.1177/23780231261426413
+
+Putnick, D. L., and Bornstein, M. H. (2016). Measurement invariance conventions and reporting: The state of the art and future directions for psychological research. Developmental Review, 41, 71-90. https://doi.org/10.1016/j.dr.2016.06.004
+
+Resh, N., and Sabbagh, C. (2014). Sense of justice in school and civic attitudes. Social Psychology of Education, 17(1), 51-72. https://doi.org/10.1007/s11218-013-9240-8
+
+Tang, M., Li, A., and Wu, X. (2025). Meritocratic myth in mind? Socioeconomic backgrounds and shifting beliefs about meritocracy among college students in China. Sociology of Education. https://doi.org/10.1177/00380407251360432
+
+Wiederkehr, V., Bonnot, V., Krauth-Gruber, S., and Darnon, C. (2015). Belief in school meritocracy as a system-justifying tool for low status students. Frontiers in Psychology, 6. https://doi.org/10.3389/fpsyg.2015.01053
+
+Zhu, L. (2025). Meritocratic beliefs in the United States, Finland, and China: A multidimensional approach using latent class analysis. The British Journal of Sociology, 76(1), 153-172. https://doi.org/10.1111/1468-4446.13152
