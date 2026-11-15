@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Juan Carlos Castillo, Daniel Miranda &amp; Tomás Urzúa">
+
+<title>Meritocracy and citizenship education in ICCS 2027: Insights from previous data using Response Item Networks</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="IRC2027-submission_files/libs/clipboard/clipboard.min.js"></script>
+<script src="IRC2027-submission_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="IRC2027-submission_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="IRC2027-submission_files/libs/quarto-html/popper.min.js"></script>
+<script src="IRC2027-submission_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="IRC2027-submission_files/libs/quarto-html/anchor.min.js"></script>
+<link href="IRC2027-submission_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="IRC2027-submission_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="IRC2027-submission_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="IRC2027-submission_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="IRC2027-submission_files/libs/bootstrap/bootstrap-353258de69e7eb5ab93a38a941e13bb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Meritocracy and citizenship education in ICCS 2027: Insights from previous data using Response Item Networks</h1>
+<p class="subtitle lead">Draft submission IRC 2027 Bangkok</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Juan Carlos Castillo, Daniel Miranda &amp; Tomás Urzúa </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="abstract" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="abstract">Abstract</h2>
+<p>This proposal introduces a research agenda for integrating meritocracy into civic and citizenship education research ahead of the release of the International Civic and Citizenship Education Study (ICCS) 2027 database. The agenda is motivated by two new ICCS 2027 questionnaire items on effort and family origin. These items create a timely opportunity to study how young people understand fairness, social mobility, and structural inequality, and how those beliefs connect to civic norms taught in schools.</p>
+<p>Using data from the EDUMER 2023 student survey fielded in Chile (N=902), a study designed to align with core civic and citizenship constructs used in ICCS, we provide an empirical baseline that can guide future analyses that incorporate meritocracy items. The analysis has three aims. First, we describe the distribution of student responses to two meritocracy related items that capture perceived roles of personal effort and family background. Second, we examine variation in these beliefs by key social structural characteristics, focusing on gender and parental education. Third, we model how meritocracy items are structurally embedded in a broader attitudinal network of citizenship education indicators already measured in EDUMER, including attitudes toward equality, social responsibility, and democratic coexistence in school contexts.</p>
+<p>The analytical strategy combines descriptive profiles, group mean comparisons, and Response Item Networks (ResIN) (Carpentras et al., 2024) as the core inferential framework. This design allows us to identify how meritocracy beliefs connect to citizenship attitudes beyond linear assumptions and whether those connections vary by social position. We also examine whether effort and family origin occupy different structural roles in the attitude system, which is central for theorizing meritocracy as a multidimensional construct in adolescence.</p>
+<p>Expected findings indicate that effort centered beliefs will be widely endorsed, while recognition of family origin as a source of advantage will be less uniformly distributed and more strongly stratified by parental education. We further expect that stronger structural awareness of family origin will be positively associated with equality oriented civic attitudes, whereas exclusive emphasis on effort may show weaker or mixed associations depending on the outcome considered.</p>
+<p>The contribution is threefold: conceptual, methodological, and policy relevant. Conceptually, it positions meritocracy beliefs as part of civic learning rather than as a separate opinion domain. Methodologically, it offers replicable measurement and modeling decisions that can be transferred to ICCS 2027 once available. For policy and practice, it identifies actionable lines for curriculum, teacher preparation, and school discussion about issues of fairness and equality of opportunity.</p>
+</section>
+<section id="keywords" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="keywords">Keywords</h2>
+<ul>
+<li>Meritocracy</li>
+<li>Civic and citizenship education</li>
+<li>Social inequality beliefs</li>
+<li>Adolescence</li>
+<li>Survey analysis</li>
+</ul>
+</section>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Beliefs about meritocracy are central to how students interpret social inequality, success, and justice. In educational contexts, meritocratic beliefs can shape whether young people view life outcomes mainly as the result of individual effort, as the consequence of social origin, or as a combination of both. This distinction matters for civic and citizenship education because judgments about fairness and responsibility are part of democratic socialization. When students discuss equal opportunity, rights, solidarity, and participation, they draw on implicit assumptions about whether social systems are open and fair (Batruch et al., 2022; Wiederkehr et al., 2015; Resh and Sabbagh, 2014).</p>
+<p>Following recent work, we treat meritocracy and privilege as analytically distinct dimensions rather than opposite poles of one continuum. This avoids forcing a zero-sum interpretation and allows for “dual consciousness” profiles in which students can simultaneously endorse effort and recognize structural advantage (Castillo et al., 2023; Kwon and Pandian, 2024; Zhu, 2025; Mijs, 2026). This perspective is especially relevant for school-age populations because schools socialize meritocratic norms while also exposing students to unequal conditions linked to family resources and networks (Batruch et al., 2022; Darnon et al., 2018; Goudeau and Croizet, 2017; Resh and Sabbagh, 2014).</p>
+<p>The ICCS 2027 offers a strategic moment to advance this agenda because it includes two questionnaire items directly related to effort and family origin. These items can support comparative evidence on how adolescents reconcile individual responsibility with structural constraints. At the same time, there is a need for conceptual and empirical groundwork on how these beliefs vary across social groups and connect to broader civic orientations already measured in existing instruments.</p>
+<p>This proposal addresses the aforementioned gaps by using EDUMER survey data as an anticipatory analytical platform linked to ICCS constructs. The study has three objectives:</p>
+<ol type="1">
+<li>To describe the distribution of student beliefs about effort and family origin in relation to life chances.</li>
+<li>To test whether these beliefs differ by gender and parental education.</li>
+<li>To estimate the structural position of meritocracy beliefs within an attitudinal network that includes key civic and citizenship outcomes measured in EDUMER.</li>
+</ol>
+<p>The educational significance is twofold. First, the study contributes to theory development by positioning meritocracy beliefs as a substantive dimension of civic learning during adolescence. Second, it opens possibilities for future studies using ICCS data that could incorporate meritocratic measures into their analyses.</p>
+</section>
+<section id="data-sources-and-methods" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="data-sources-and-methods"><span class="header-section-number">2</span> Data Sources and Methods</h2>
+<section id="data-source-and-analytic-sample" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="data-source-and-analytic-sample"><span class="header-section-number">2.1</span> Data Source and Analytic Sample</h3>
+<p>The empirical analysis uses student level data from the EDUMER survey (2023, N=902), fielded in Chile. EDUMER includes items aligned with civic and citizenship domains that are traditional in previous ICCS questionnaires. The analytic sample includes students with valid responses on the two meritocracy indicators and selected background and civic outcome variables. Missingness patterns will be reported and handled through transparent rules (complete case and sensitivity checks).</p>
+</section>
+<section id="measures" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="measures"><span class="header-section-number">2.2</span> Measures</h3>
+<p>Primary predictors:</p>
+<ol type="1">
+<li>Effort belief item: agreement with the idea that individual effort determines success.</li>
+<li>Family origin belief item: agreement with the idea that family background influences life opportunities.</li>
+</ol>
+<p>Sociostructural variables:</p>
+<ol type="1">
+<li>Gender.</li>
+<li>Parental education level (harmonized into comparable categories).</li>
+</ol>
+<p>Civic and citizenship outcomes:</p>
+<ol type="1">
+<li>Good citizenship attitudes.</li>
+<li>Political participation.</li>
+<li>Democratic coexistence and school climate related indicators.</li>
+</ol>
+<p>Covariates: Student and school background controls available in EDUMER and conceptually relevant to civic outcomes.</p>
+</section>
+<section id="analytical-strategy" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="analytical-strategy"><span class="header-section-number">2.3</span> Analytical Strategy</h3>
+<p>The analysis is organized in three stages, with ResIN as the main explanatory method.</p>
+<p>Stage 1: Descriptive distributions</p>
+<ol type="1">
+<li>Weighted percentages and central tendency statistics for effort and family origin beliefs.</li>
+<li>Graphical profiles of endorsement levels, including response category distributions.</li>
+<li>A joint distribution matrix (effort by family origin) to identify belief profiles that are merit-centered, structure-centered, dual, or low-endorsement.</li>
+</ol>
+<p>Stage 2: Group differences</p>
+<ol type="1">
+<li>Mean and distribution comparisons by gender and parental education.</li>
+<li>Effect size reporting to complement significance testing.</li>
+<li>Profile prevalence comparisons by gender and parental education to evaluate whether dual-consciousness patterns are socially stratified.</li>
+</ol>
+<p>Stage 3: Attitudinal network modeling with ResIN</p>
+<ol type="1">
+<li>Construct a ResIN network at the item-response level combining meritocracy items and selected citizenship education items.</li>
+<li>Identify network communities, bridge nodes, and structural proximity between meritocracy responses and classical civic outcomes.</li>
+<li>Compare network structures by gender and parental education to detect asymmetries in how effort and family origin connect to civic attitudes.</li>
+<li>Estimate node-level influence and bridge centrality to identify which beliefs are most likely to connect meritocratic reasoning with civic orientation clusters.</li>
+</ol>
+<p>ResIN is used as the primary framework because it models attitude systems at the response-item level and can recover asymmetries and non-linear structures often obscured in conventional latent-variable summaries (Carpentras et al., 2024).</p>
+<p>Robustness checks include alternate codings of meritocracy items, sensitivity to missing data handling, and network stability diagnostics. We will compare ResIN outputs with conventional item-correlation BNA summaries. In line with recent measurement literature, we will explicitly discuss comparability risks when extending these analyses to new populations or waves (Davidov et al., 2014; Putnick and Bornstein, 2016; Leitgob et al., 2023).</p>
+</section>
+<section id="link-to-iccs-data" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="link-to-iccs-data"><span class="header-section-number">2.4</span> Link to ICCS Data</h3>
+<p>Although the analysis uses EDUMER, the design is explicitly built to inform future ICCS 2027 work. The two focal constructs effort and family origin are treated as conceptually transportable dimensions. By documenting expected distributions, group gradients, and outcome associations in advance, this study provides a practical starting point for replicable analyses once the ICCS 2027 data become available.</p>
+</section>
+</section>
+<section id="results-and-discussion" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="results-and-discussion"><span class="header-section-number">3</span> Results and Discussion</h2>
+<section id="preliminary-pattern-expectations" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="preliminary-pattern-expectations"><span class="header-section-number">3.1</span> Preliminary Pattern Expectations</h3>
+<p>Based on prior literature and contextual evidence, we expect a high endorsement of effort centered explanations and a more heterogeneous endorsement of family origin explanations. In practical terms, students may strongly value effort while differing in their recognition of structural privilege.</p>
+<p>Consistent with multidimensional evidence, we expect non-trivial coexistence: many students will likely endorse effort and family origin simultaneously, rather than choosing one explanation over the other (Castillo et al., 2023; Zhu, 2025). Under a ResIN perspective, this should appear as proximate or bridged response configurations rather than mutually exclusive attitude zones.</p>
+<p>For sociostructural gradients, we expect parental education to be a relevant axis of differentiation, with stronger recognition of family origin effects among students from more highly educated households. Gender differences are expected to be present but potentially smaller and outcome dependent.</p>
+</section>
+<section id="expected-associations-with-civic-outcomes" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="expected-associations-with-civic-outcomes"><span class="header-section-number">3.2</span> Expected Associations With Civic Outcomes</h3>
+<p>The core hypothesis is that meritocracy beliefs are not neutral with respect to civic learning.</p>
+<ol type="1">
+<li>Students who recognize family origin effects are expected to show stronger support for equality oriented attitudes and social responsibility.</li>
+<li>Students who emphasize only effort may show mixed civic profiles, potentially combining high personal agency with weaker acknowledgment of structural inequality.</li>
+<li>Students who integrate both dimensions effort and structure may show the most balanced civic profile, combining responsibility with fairness concerns.</li>
+</ol>
+<p>In network terms, we expect family-origin recognition to function as a bridge between meritocracy beliefs and equality-oriented citizenship attitudes.</p>
+<p>These patterns are important for citizenship education because they suggest that classroom discussions about justice and opportunity should avoid false binaries. A pedagogical approach that integrates agency and structure may better support democratic reasoning than approaches that emphasize one dimension alone.</p>
+</section>
+<section id="tables-and-figures-planned" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="tables-and-figures-planned"><span class="header-section-number">3.3</span> Tables and Figures Planned</h3>
+<ol type="1">
+<li>Figure 1. Distribution of effort and family origin beliefs.</li>
+<li>Table 1. Group differences by gender and parental education.</li>
+<li>Figure 2. ResIN network of meritocracy and citizenship items.</li>
+<li>Table 2. Network metrics (bridge centrality, community links) by group.</li>
+<li>Figure 3. Group-comparative network maps by parental education.</li>
+</ol>
+</section>
+<section id="scientific-and-practical-relevance" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="scientific-and-practical-relevance"><span class="header-section-number">3.4</span> Scientific and Practical Relevance</h3>
+<p>The expected contribution to the ICCS community is threefold.</p>
+<ol type="1">
+<li>Conceptual relevance: the study argues for treating meritocracy beliefs as part of civic competence formation.</li>
+<li>Methodological relevance: the study introduces ResIN as a tractable way to map response-level connections between meritocracy and citizenship attitudes, including potential non-linearities and asymmetries often flattened in latent-variable summaries.</li>
+<li>Practical relevance: the findings can inform curriculum and teacher training by identifying where students may need support to critically connect personal effort, social context, and democratic equality.</li>
+</ol>
+</section>
+</section>
+<section id="final-remarks" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="final-remarks"><span class="header-section-number">4</span> Final Remarks</h2>
+<p>This proposal prepares the ground for a focused ICCS 2027 research agenda on meritocracy and privilege. By using EDUMER as an anticipatory platform, the study provides evidence and tools for immediate uptake when the new wave is released.</p>
+<p>The main point of view is that civic and citizenship education should explicitly engage students in interpreting the relationship between individual effort and structural opportunity. Treating meritocracy as a civic learning issue rather than only a social attitudes topic helps connect distributive justice debates to school based democratic education.</p>
+<p>From a conference perspective, the paper contributes to IEA priorities by linking empirical analysis to future comparative use of ICCS data and by offering actionable implications for policy and practice. It is designed as a bridge between current evidence and upcoming data opportunities, with clear pathways for extension into cross national analyses, school level heterogeneity studies, and trend monitoring in future research.</p>
+</section>
+<section id="references" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="references">References</h2>
+<p>Batruch, A., Jetten, J., van de Werfhorst, H., Darnon, C., and Butera, F. (2022). Belief in school meritocracy and the legitimization of social and income inequality. Social Psychological and Personality Science. https://doi.org/10.1177/19485506221111017</p>
+<p>Carpentras, D., Luders, A., and Quayle, M. (2024). Response item network (ResIN): A network-based approach to explore attitude systems. Humanities and Social Sciences Communications, 11(1), 1-14. https://doi.org/10.1057/s41599-024-03037-x</p>
+<p>Castillo, J. C., Iturra, J., Maldonado, L., Atria, J., and Meneses, F. (2023). A multidimensional approach for measuring meritocratic beliefs: Advantages, limitations and alternatives to the ISSP social inequality survey. International Journal of Sociology, 53(6), 448-472. https://doi.org/10.1080/00207659.2023.2274712</p>
+<p>Darnon, C., Wiederkehr, V., Dompnier, B., and Martinot, D. (2018). Where there is a will, there is a way: Belief in school meritocracy and the social-class achievement gap. British Journal of Social Psychology, 57(1), 250-262. https://doi.org/10.1111/bjso.12214</p>
+<p>Davidov, E., Meuleman, B., Cieciuch, J., Schmidt, P., and Billiet, J. (2014). Measurement equivalence in cross-national research. Annual Review of Sociology, 40, 55-75. https://doi.org/10.1146/annurev-soc-071913-043137</p>
+<p>Fan, S., John, O. P., and De Fruyt, F. (2026). Disillusionment with meritocracy during the transition to adulthood: Longitudinal change in belief systems and depression in China. Psychological Science. https://doi.org/10.1177/09567976261479675</p>
+<p>Goudeau, S., and Croizet, J.-C. (2017). Hidden advantages and disadvantages of social class: How classroom settings reproduce social inequality by staging unfair comparison. Psychological Science, 28(2), 162-170. https://doi.org/10.1177/0956797616676600</p>
+<p>Kwon, R., and Pandian, R. K. (2024). Multidimensionality in merit attitudes: The role of hard work, skills, and social connections in Europe. Social Science Research, 122, 103056. https://doi.org/10.1016/j.ssresearch.2024.103056</p>
+<p>Leitgob, H., Seddig, D., Asparouhov, T., Behr, D., Davidov, E., De Roover, K., Jak, S., Meitinger, K., Menold, N., Muthen, B., Rudnev, M., Schmidt, P., and van de Schoot, R. (2023). Measurement invariance in the social sciences: Historical development, methodological challenges, state of the art, and future perspectives. Social Science Research, 110, 102805. https://doi.org/10.1016/j.ssresearch.2022.102805</p>
+<p>Lundberg, I., Johnson, R., and Stewart, B. M. (2021). What is your estimand? Defining the target quantity connects statistical evidence to theory. American Sociological Review, 86(3), 532-565. https://doi.org/10.1177/00031224211004187</p>
+<p>Mijs, J. J. B. (2026). Visualizing belief in merit and privilege, 1930 to 2020: Rejoinder. Socius, 12. https://doi.org/10.1177/23780231261426413</p>
+<p>Putnick, D. L., and Bornstein, M. H. (2016). Measurement invariance conventions and reporting: The state of the art and future directions for psychological research. Developmental Review, 41, 71-90. https://doi.org/10.1016/j.dr.2016.06.004</p>
+<p>Resh, N., and Sabbagh, C. (2014). Sense of justice in school and civic attitudes. Social Psychology of Education, 17(1), 51-72. https://doi.org/10.1007/s11218-013-9240-8</p>
+<p>Tang, M., Li, A., and Wu, X. (2025). Meritocratic myth in mind? Socioeconomic backgrounds and shifting beliefs about meritocracy among college students in China. Sociology of Education. https://doi.org/10.1177/00380407251360432</p>
+<p>Wiederkehr, V., Bonnot, V., Krauth-Gruber, S., and Darnon, C. (2015). Belief in school meritocracy as a system-justifying tool for low status students. Frontiers in Psychology, 6. https://doi.org/10.3389/fpsyg.2015.01053</p>
+<p>Zhu, L. (2025). Meritocratic beliefs in the United States, Finland, and China: A multidimensional approach using latent class analysis. The British Journal of Sociology, 76(1), 153-172. https://doi.org/10.1111/1468-4446.13152</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
